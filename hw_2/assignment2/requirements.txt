@@ -1,0 +1,22 @@
+# kenlm must be installed from source; incompatible with Python 3.14+
+# install separately: pip install https://github.com/kpu/kenlm/archive/master.zip
+levenshtein
+jiwer
+matplotlib
+pandas
+datasets
+soundfile
+librosa
+transformers
+torch
+
+
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+jiwer>=3.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+pandas>=2.0.0
+numpy>=1.24.0
